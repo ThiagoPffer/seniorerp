@@ -80,7 +80,7 @@ public class Pedido implements Serializable {
     }
 
     public Double getDesconto() {
-        return desconto;
+        return desconto != null ? desconto : 0;
     }
 
     public Situacao getSituacao() {

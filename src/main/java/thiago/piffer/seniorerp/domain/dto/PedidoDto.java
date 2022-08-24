@@ -1,6 +1,7 @@
 package thiago.piffer.seniorerp.domain.dto;
 
 import javax.validation.Valid;
+import javax.validation.constraints.Max;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
@@ -15,6 +16,7 @@ public class PedidoDto implements Serializable {
     @NotBlank(message = "Nome do cliente é obrigatório")
     private String cliente;
 
+    @Max(value = 1)
     private Double desconto;
 
     @Valid
