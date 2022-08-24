@@ -64,7 +64,7 @@ public class Pedido implements Serializable {
     private void setTotal() {
         this.total = BigDecimal.ZERO;
         BigDecimal totalProdutos = BigDecimal.ZERO;
-        var valorDesconto = BigDecimal.ZERO;
+        BigDecimal valorDesconto = BigDecimal.ZERO;
 
         if (getItensPedido() != null && !getItensPedido().isEmpty()) {
             for (ItemPedido itemPedido : getItensPedido()) {
