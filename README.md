@@ -1,37 +1,3 @@
-<style>
-    .endpoint {
-        background-color: #9BFF91; 
-        color: black; 
-        padding: 8px 15px; 
-        font-size: 18px; 
-        border-radius: 4px; 
-        font-family: Courier; 
-        font-weigth: 500;    
-    }
-
-    ul, li {
-        padding: 0;
-        margin: 10px 0;
-        list-style: none;
-    }
-
-    li span {
-        font-size: 16px;
-    }
-
-    .endpoint_box {
-        margin: 25px 0;
-    }
-
-    .endpoint_method {
-        padding: 5px 10px;
-        border-radius: 4px;
-        margin-right: 15px;
-        color: black;
-        background-color: #6879ff;
-    }
-</style>
-
 <h1>Desafio técnico SÊNIOR Sistemas</h1>
 
 <p>Este projeto trata-se de um desafio técnico propost em um processo seletivo para a Sênior Sistemas. 
@@ -42,9 +8,9 @@ Abaixo é possível conferir todos os endpoints e funcionalidades da aplicação
 
 <h3>EndPoints</h3>
 <div class="endpoint_box">
-    <span class="endpoint">
+    <h4 class="endpoint">
         /produtos
-    </span>
+    </h4>
     <ul>
         <li><b class="endpoint_method">GET</b>
             <span>Retorna todos os produtos já cadastrados, em paginação.</span>
@@ -58,9 +24,9 @@ Abaixo é possível conferir todos os endpoints e funcionalidades da aplicação
 </div>
 
 <div class="endpoint_box">
-    <span class="endpoint">
+    <h4 class="endpoint">
         /produtos:uuid
-    </span>
+    </h4>
     <ul>
         <li><b class="endpoint_method">GET</b>
             <span>Retorna um produto de acordo com o uuid correspondente ao enviado na url.</span>
@@ -75,9 +41,9 @@ Abaixo é possível conferir todos os endpoints e funcionalidades da aplicação
 </div>
 
 <div class="endpoint_box">
-    <span class="endpoint">
+    <h4 class="endpoint">
         /pedidos
-    </span>
+    </h4>
     <ul>
         <li><b class="endpoint_method">GET</b>
             <span>Retorna um produto de acordo com o uuid correspondente ao enviado na url.</span>
@@ -91,9 +57,9 @@ Abaixo é possível conferir todos os endpoints e funcionalidades da aplicação
 </div>
 
 <div class="endpoint_box">
-    <span class="endpoint">
+    <h4 class="endpoint">
         /pedidos:uuid
-    </span>
+    </h4>
     <ul>
         <li><b class="endpoint_method">GET</b>
             <span>Retorna um pedido de acordo com o uuid correspondente ao enviado na url.</span>
